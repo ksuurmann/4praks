@@ -1,109 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="style3.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style3.css" />
+    <link rel="stylesheet" href="queries.css" />
     <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
-            rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
     />
     <title>Vinylery homepage</title>
-</head>
+  </head>
 
-<body>
-<header>
-    <div id="header-image">
-        <div id="header-container">
+  <body>
+    <div class="container">
+      <header>
+        <div id="header-image">
+          <div id="header-container">
             <div id="päis">
-                <div id="logo">Vinylery</div>
-                <nav>
-                    <ul>
-                        <li><a href="#">Welcome</a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                    </ul>
-                </nav>
+              <div id="logo">Vinylery</div>
+              <nav>
+                <input id="hamburger" type="checkbox" class="hamburger" />
+                <label class="hamburger-icon" for="hamburger">
+                  <div class="line upper-line"></div>
+                  <div class="line middle-line"></div>
+                  <div class="line lower-line"></div>
+                </label>
+                <ul>
+                  <li><a href="#">Welcome</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                </ul>
+              </nav>
             </div>
             <h1>Music curated just for <strong>your</strong> ears</h1>
+          </div>
         </div>
-    </div>
-</header>
-<main>
-    <div id="main-content">
-        <section class="”welcome”">
-            <h2>Welcome</h2>
-            <div id="welcome-content">
-                <div id="welcome-img"></div>
-                <img src="welcome-img.png"/>
-                <div id="welcome-text">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua
-                        commodo consequat. Duis aute irure dolor cillum dolore eu fugiat
-                        nulla pariatur.
-                    </p>
-                    <p>
-                        Sed do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua commodo consequat. Duis aute labore et dolore.
-                    </p>
-                    <p>
-                        Sit amet consectetur adipiscing elit ut. Metus vulputate eu
-                        scelerisque felis imperdiet. Tortor at auctor urna nunc. Nunc
-                        eget lorem dolor sed viverra ipsum nunc aliquet.
-                    </p>
-                </div>
-            </div>
-        </section>
+      </header>
+      <main>
+        <div class="main-content">
+          <section class="welcome">
+            <h2>Welcome!</h2>
+            <div class="welcome-content">
+              <img
+                class="welcome-img"
+                src="welcome-img.png"
+                alt="welcome-img"
+              />
 
-        <section id="pricing">
+              <div id="welcome-text">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                  commodo consequat. Duis aute irure dolor cillum dolore eu
+                  fugiat nulla pariatur.
+                </p>
+                <p>
+                  Sed do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua commodo consequat. Duis aute labore et dolore.
+                </p>
+                <p>
+                  Sit amet consectetur adipiscing elit ut. Metus vulputate eu
+                  scelerisque felis imperdiet. Tortor at auctor urna nunc. Nunc
+                  eget lorem dolor sed viverra ipsum nunc aliquet.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section id="pricing">
             <h2>Pricing</h2>
-            <div id="pricing-content">
-                <div>
-                    <img src="pricing-img-1.png"/>
-                    <p>
-                        2 vinyls per month mainly never records or used records
-                    </p>
-                    <button><p>45$</p></button>
-                </div>
-                <div>
-                    <img src="pricing-img-2.png"/>
-                    <p>
-                        3 vinyls per month music from all decades or used records
-                    </p>
-                    <button><p>75$</p></button>
-                </div>
-                <div>
-                    <img src="pricing-img-3.png"/>
-                    <p>
-                        5 vinyls per month well kept copies originals or rare editions complimentary wines
-                    </p>
-                    <button><p>225$</p></button>
-                </div>
-
+            <div class="pricing-content">
+              <div class="pricing-card">
+                <img src="pricing-img-1.png" alt="1 pilt" />
+                <p>2 vinyls per month mainly never records or used records</p>
+                <button>45$</button>
+              </div>
+              <div class="pricing-card">
+                <img src="pricing-img-2.png" alt="2 pilt" />
+                <p>3 vinyls per month music from all decades or used records</p>
+                <button>75$</button>
+              </div>
+              <div class="pricing-card">
+                <img src="pricing-img-3.png" alt="3 pilt" />
+                <p>
+                  5 vinyls per month well kept copies originals or rare editions
+                  complimentary wines
+                </p>
+                <button>225$</button>
+              </div>
             </div>
-        </section>
+          </section>
 
-        <section id="testimonials">
+          <section class="testimonials">
             <h2>Testimonials</h2>
-            <div id="testimonials-content">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna. Get lorem
-                    dolor sed viverra ipsum!
-                </p>
-                <p class="author"><i>John Smith</i></p>
-                <br/>
-                <p>
-                    Odio euismod lacinia at quis risus sed vulputate. Cum sociis
-                    natoque penatibus et. Id ornare arcu odio ut. Et ligula
-                    ullamcorper malesuada proin libero.
-                </p>
-                <p class="author"><i>Mary Baker</i></p>
+            <div class="testimonials-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna. Get lorem
+                dolor sed viverra ipsum!
+              </p>
             </div>
-        </section>
+            <p class="author"><i>John Smith</i></p>
+
+            <div class="testimonials-content">
+              <p>
+                Odio euismod lacinia at quis risus sed vulputate. Cum sociis
+                natoque penatibus et. Id ornare arcu odio ut. Et ligula
+                ullamcorper malesuada proin libero.
+              </p>
+            </div>
+            <p class="author"><i>Mary Baker</i></p>
+          </section>
+        </div>
+      </main>
+      <footer><p>&copy;by Kaisa Suurmann 2020</p></footer>
     </div>
-</main>
-<footer><p>&copy;by Kaisa Suurmann 2020</p></footer>
-</body>
+  </body>
 </html>
